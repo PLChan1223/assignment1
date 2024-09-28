@@ -1,0 +1,80 @@
+import turtle
+myPen = turtle.Turtle()
+myPen.shape("arrow")
+myPen.speed(10)
+
+window = turtle.Screen()
+window.bgcolor("Black")
+
+myPen.color("white")
+myPen.pensize(2)
+myPen.fillcolor("white")
+
+myPen.penup()
+myPen.goto(-180, -120)
+myPen.pendown()
+myPen.begin_fill()
+myPen.goto(180,-120)
+myPen.goto(180,120)
+myPen.goto(-180,120)
+myPen.goto(-180, -120)
+myPen.end_fill()  
+  
+#Blue
+myPen.color("blue")
+myPen.pensize(2)
+myPen.fillcolor("blue")
+
+myPen.penup()
+myPen.goto(-180, -120)
+myPen.pendown()
+myPen.begin_fill()
+myPen.goto(-60,-120)
+myPen.goto(-60,120)
+myPen.goto(-180,120)
+myPen.goto(-180, -120)
+myPen.end_fill()  
+
+#Red
+myPen.color("red")
+myPen.pensize(2)
+myPen.fillcolor("red")
+
+myPen.penup()
+myPen.goto(60, -120)
+myPen.pendown()
+myPen.begin_fill()
+myPen.goto(180,-120)
+myPen.goto(180,120)
+myPen.goto(60,120)
+myPen.goto(60, -120)
+myPen.end_fill()  
+myPen.hideturtle()
+#End of France Flag
+
+yrPen = turtle.Turtle()
+yrPen.shape("arrow")
+yrPen.speed(10)
+
+yrPen.color("white")
+yrPen.pensize(2)
+yrPen.fillcolor("white")
+yrPen.penup()
+yrPen.goto(-180, -480)
+yrPen.pendown()
+yrPen.begin_fill()
+yrPen.goto(180,-480)
+yrPen.goto(180,-240)
+yrPen.goto(-180,-240)
+yrPen.goto(-180, -480)
+yrPen.end_fill() 
+yrPen.penup()
+yrPen.goto(0, -460)
+yrPen.fillcolor("red") 
+yrPen.begin_fill() 
+yrPen.circle(100)
+yrPen.end_fill()  
+yrPen.hideturtle()
+
+turtle.done()
+
